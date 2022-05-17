@@ -1,0 +1,166 @@
+/* Menu */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-expand-lg {
+    height: 120px;
+}
+
+.navbar-expand-lg .nav-link {
+    position: relative;
+    text-decoration: none;
+    left: -40px;
+    color: red;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar-expand-lg .nav-item {
+    font-size: 18px;
+    color: black;
+    position: relative;
+}
+
+.navbar-expand-lg .nav-item .nav-link {
+    color: black;
+}
+
+.navbar-expand-lg .nav-item .nav-link:hover {
+    color:black;
+}
+
+.navbar-expand-lg .nav-item a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.navbar-expand-lg .nav-item a:hover::before {
+    transform-origin: center;
+    transform: scaleX(1);
+}
+
+/*Banner*/
+.carousel-inner .carousel-item img {
+    width: 1528px;
+    height: 650px;
+}
+
+/*Top bán chạy*/
+
+.titletop {
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.col-md-2 {
+    position: relative;
+    transform: translateX(50%);
+}
+
+/* Banner 2 */
+#carouselExampleSlidesOnly {
+    top: 20px;
+}
+
+.carousel-caption {
+    top: 40%;
+    transform: translateX(-50%);
+    font-size: 35px;
+}
+
+/* Thương Hiệu Bán Chạy */
+.thuonghieubanchay p {
+    text-align: center;
+    transform: translateY(-50%);
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.gachngang {
+    position: relative;
+    width: 1000px;
+    height: 1px;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    margin-bottom: 50px;
+}
+
+.thuonghieubanchay .col-md-2 img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;   
+}
+
+.thuonghieubanchay .col-md-3 img {
+    position: relative;
+    left: 80%;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+/* banner tin tức */
+.row .col p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-bottom: -10px;
+}
+
+.row .col .btn {
+    position: relative;
+    top: 50%;
+    border: 1px solid black;
+}
+
+.row .col .title2 {
+    position: relative;
+    left: 30%;
+}
+
+.row .col .p2 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.row .col button {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tintuc span {
+    position: relative;
+    left: 49%;
+    font-size: 30px;
+    top: 35px;
+}
+
+.tintuc .row {
+    position: relative;
+    top: 50px;
+    left: 53%;
+    transform: translateX(-50%);
+}
+
+section {
+    position: relative;
+    top: 50px;
+}
